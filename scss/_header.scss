@@ -1,0 +1,30 @@
+@mixin text {
+    
+    color: $color-fuentes;
+    list-style-type: none;
+    display: inline-block;
+}
+
+
+header {
+    background-color: $color-fondo;
+    .logo {
+        border-radius: 50%;
+        width: auto;
+        height: auto;
+    }
+    h1 {
+        text-align: center;
+        color: rgb(211, 132, 13);
+        font-family: 'Cinzel', serif;
+    font-family: 'Crete Round', serif,
+    
+    }
+    a {
+        color: green;
+    }
+    li {
+        @include text;
+       
+    }
+}

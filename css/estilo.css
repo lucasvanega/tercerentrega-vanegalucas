@@ -1,0 +1,81 @@
+body {
+  background-color: #161718;
+  color: color green;
+  font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
+}
+
+main {
+  background-color: peru;
+}
+main h2 {
+  text-align: center;
+}
+main .parrafo {
+  text-align: center;
+  font-size: 30px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+main .foto {
+  border-radius: 40%;
+  padding: 10px;
+}
+
+img {
+  width: 300px;
+  padding: 5px;
+}
+
+footer {
+  background-color: #161718;
+}
+footer h4 {
+  text-align: center;
+  color: beige;
+}
+footer a {
+  text-align: center;
+  color: green;
+  margin-left: 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+footer .efecto {
+  animation-name: texto;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  text-align: center;
+}
+
+@keyframes texto {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+header {
+  background-color: #161718;
+}
+header .logo {
+  border-radius: 50%;
+  width: auto;
+  height: auto;
+}
+header h1 {
+  text-align: center;
+  color: rgb(211, 132, 13);
+  font-family: "Cinzel", serif;
+  font-family: "Crete Round", serif;
+}
+header a {
+  color: green;
+}
+header li {
+  color: color green;
+  list-style-type: none;
+  display: inline-block;
+}
+
+/*# sourceMappingURL=estilo.css.map */
